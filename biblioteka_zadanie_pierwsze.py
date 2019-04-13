@@ -15,6 +15,8 @@ class Library:
     presentCopies = []
 
     def add_book_copy(self, title, author, year):
+        if 1 == 1:
+            print('1 == 1')
 
         if title not in list(self.presentBooks.keys()):
             self.presentBooks[title] = Book(title, author)
