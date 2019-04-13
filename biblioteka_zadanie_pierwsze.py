@@ -10,6 +10,11 @@ class BookCopy:
         self.year = year
 
 
+class Newspaper:
+    def __init__(self, title):
+        self.title = title
+
+
 class Library:
     presentBooks = {}
     presentCopies = []
